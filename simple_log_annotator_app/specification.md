@@ -3,7 +3,7 @@
 ## tools 
 use bun as the package manager to install everything
 use svelte 5 as the framework
-use shadcn-svelte for all ui components, these need to get added one by one in the cli
+use shadcn-svelte for all ui components, these need to get added one by one in the cli, like this: `bun x shadcn-svelte@latest add button` the docs are here: https://www.shadcn-svelte.com/docs/, i've already run the initialization. 
 
 ## log display
 - display the entire trace of the conversation, including all spans (which are sub-elements of a trace)
