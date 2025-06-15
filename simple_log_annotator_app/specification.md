@@ -1,9 +1,9 @@
 # an annotation app that allows the user to annotate their claude code conversations with both quantitative and qualitative feedback
 
 ## tools 
-use bun to install everything
+use bun as the package manager to install everything
 use svelte 5 as the framework
-use shadcn-svelte for all ui components
+use shadcn-svelte for all ui components, these need to get added one by one in the cli
 
 ## log display
 - display the entire trace of the conversation, including all spans (which are sub-elements of a trace)
