@@ -48,5 +48,9 @@
 		"typescript-eslint": "^8.20.0",
 		"vite": "^6.2.6",
 		"vitest": "^3.2.3"
+	},
+	"dependencies": {
+		"@playwright/mcp": "^0.0.29",
+		"lucide-svelte": "^0.515.0"
 	}
 }

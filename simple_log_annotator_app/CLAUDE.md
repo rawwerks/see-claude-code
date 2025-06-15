@@ -1,0 +1,2 @@
+- if you expect me to look at the dev server, you need to `run bun run dev --open` to automatically open the browser page
+- always remember to run the dev or preview servers in separate terminals, or they will block our conversation in this REPL enviroment.
