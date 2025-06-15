@@ -1,4 +1,4 @@
-# an annotation app that allows the user to annotate their claude code conversations with both quantitative and qualitative feedback
+# an annotation app that allows the user to annotate their claude code conversations with both quantitative (thumbs up or down, which is 0 or 1) and qualitative feedback (notes)
 
 ## tools 
 use bun as the package manager to install everything
@@ -12,6 +12,11 @@ use shadcn-svelte for all ui components, these need to get added one by one in t
 
 ## user input
 - the user can drag and drop their .jsonl files anywhere, including multiple files or a folder that will recursively load multiple files. each .jsonl file is one trace. 
+- the user can vote for a trace thumbs down (0) or thumbs up (1), which are buttons with icons and also have the hotkeys up and down arrow
+- the user can input qualtitative feedback on the trace 
+
+## notes
+- make sure the feedback is saved per trace in a way that it can be exported to json or csv. there must be a save/export button for this. 
 
 
 ## input file example: 
