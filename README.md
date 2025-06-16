@@ -8,6 +8,10 @@ inspecting and evaluating claude code
 ### [feedback_simple_open_coding.md](.claude/commands/feedback_simple_open_coding.md)  
 Simplified feedback command focused purely on capturing user feedback through open coding methodology. Provides a streamlined way to record qualitative insights and learnings without git tracking complexity.
 
+**Example:**
+![CleanShot 2025-06-15 at 20 11 55@2x](https://github.com/user-attachments/assets/f698ece7-c1e4-4888-9494-ca70ff42cee7)
+
+
 **Key features:**
 - Clean, minimal interface for feedback capture
 - Direct integration with CLAUDE.md for persistent learning
