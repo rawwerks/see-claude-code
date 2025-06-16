@@ -3,6 +3,12 @@ inspecting and evaluating claude code
 
 ![see_claude_code](https://github.com/user-attachments/assets/8eb610eb-7062-4536-bdee-55d9aa0cfec5)
 
+## How to Use This Repo
+1. copy the .claude/commands into your repo
+2. start claude code and work with it as normal
+3. at the end of the session, you can use the custom / commands to give claude code feedback
+4. look in `~/.claude/projects/-your-repo-path/` for the `claude-hash.jsonl` files to see the full logs
+
 ## Claude Code Feedback Commands for Open Coding Analysis
 
 ### [feedback_simple_open_coding.md](.claude/commands/feedback_simple_open_coding.md)  
